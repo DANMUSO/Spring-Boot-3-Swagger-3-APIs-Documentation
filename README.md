@@ -36,5 +36,7 @@ http://localhost:9006/swagger-ui/index.html
 
 
 
-<img width="637" alt="Postman  Man" src="https://user-images.githubusercontent.com/23189762/235297156-5f25e2f0-2bdc-4748-aeef-23e63cb7cb02.PNG">
+
+<img width="642" alt="Postman API" src="https://user-images.githubusercontent.com/23189762/235297489-55b934e5-e351-430e-ac5c-8e53fa84bddf.PNG">
+
 
