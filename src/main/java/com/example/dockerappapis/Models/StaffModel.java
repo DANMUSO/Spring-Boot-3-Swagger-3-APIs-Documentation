@@ -1,5 +1,6 @@
 package com.example.dockerappapis.Models;
 
+import com.example.dockerappapis.Requests.StaffRequest;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
@@ -24,5 +25,17 @@ public class StaffModel {
     private String phone;
 
     private String email;
+
+    @JoinColumn(name = "department_id")
+    @OneToOne
+    private DepartModel departModel;
+
+    public StaffModel(StaffRequest req){
+
+        this.name = req.getName();
+        this.email = req.getEmail();
+        this.phone = req.getPhone();
+    }
+
 
 }
