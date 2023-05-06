@@ -3,6 +3,7 @@ package com.example.dockerappapis.Models;
 import com.example.dockerappapis.Requests.StaffRequest;
 import jakarta.persistence.*;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
@@ -11,6 +12,7 @@ import lombok.ToString;
 @Setter
 @ToString
 @Table(name = "staffs")
+@NoArgsConstructor
 public class StaffModel {
 
     @Id

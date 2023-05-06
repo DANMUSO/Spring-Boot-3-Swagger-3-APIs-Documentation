@@ -27,4 +27,5 @@ public class StaffServiceImp implements StaffService{
     public StaffModel updateStaff(StaffModel staffModel) {
         return staffRepository.save(staffModel);
     }
+
 }

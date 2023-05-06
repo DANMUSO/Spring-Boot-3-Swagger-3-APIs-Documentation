@@ -25,7 +25,7 @@ public class StaffController {
 
     @GetMapping("/staff")
     public List<StaffModel > getStaff(){
-        return staffService.getStaff();
+        return staffRepository.findAll();
     }
 
     @PostMapping("createstaff")
@@ -55,6 +55,9 @@ public class StaffController {
         staffModel.setId(id);
         return staffService.updateStaff(staffModel);
     }
+
+
+
 }
 
 

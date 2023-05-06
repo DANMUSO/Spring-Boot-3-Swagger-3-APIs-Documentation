@@ -20,4 +20,6 @@ public class DepartModel {
     private String name;
 
     private String departcode;
+
+
 }
