@@ -21,11 +21,6 @@ public class ClassController {
     private StudentRepository sRepo;
 
 
-    @GetMapping("/")
-
-    public String displayPage(){
-        return "displayPage";
-    }
 
     @PostMapping("class")
 
