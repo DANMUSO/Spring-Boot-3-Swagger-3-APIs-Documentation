@@ -8,8 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class IndexController {
 
-    @RequestMapping(method = RequestMethod.GET, value = "/")
-
+   @GetMapping("/")
     public String displayPage(){
         return "displayPage.html";
     }
